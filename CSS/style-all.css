@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.4;
     /* font-family: 'Courier New', Courier, monospace; */
     color: rgb(65, 65, 65);
 }
