@@ -1,0 +1,105 @@
+.portfolio {
+    inline-size: 100%;
+    padding-inline: 2rem;
+
+}
+
+.portfolio .wrapper h1 {
+    font-size: clamp(2rem, 5vw, 2.5rem);
+}
+
+.portfolio .wrapper p {
+    font-size: clamp(1.05rem, 2.5vw, 1.4rem);
+    line-height: 1.6;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: clamp(1rem, 3vw, 5rem);
+
+    max-width: 56rem;
+    margin:auto;
+    padding: 3rem;
+}
+
+@media (max-width: 768px) {
+
+    .project-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+    .project-card {
+        padding: 1rem;
+        gap: 0.5rem;
+    }
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+
+
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: 2px solid rgb(44, 82, 139);
+    background: rgb(39, 34, 86);
+
+    box-shadow: 8px 16px 8px rgba(0, 0, 0, 0.326);
+}
+.project-card img{
+    width: 100px;
+    height:auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.testimonials {
+    inline-size: 100%;
+    padding-inline: 2rem;
+
+}
+
+.testimonials .wrapper h1 {
+    font-size: clamp(2rem, 5vw, 2.5rem);
+}
+
+.testimonials .wrapper p {
+    font-size: clamp(1.05rem, 2.5vw, 1.4rem);
+    line-height: 1.6;
+}
+
+.test-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+
+    max-width: 56rem;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+.test-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 100%;
+    min-height: 200px;
+    gap: 0.8rem;
+
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: 3px solid rgb(28, 86, 105);
+    background: rgb(51, 43, 99);
+
+    box-shadow: 8px 16px 8px rgba(0, 0, 0, 0.326);
+}
+.test-card p{
+    text-align: center;
+}
