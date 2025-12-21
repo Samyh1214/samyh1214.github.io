@@ -1,26 +1,85 @@
-.About-me{
+.hero-section {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    text-align: center;
-    padding-inline: 25rem;
-    padding-block: 7rem;
-    color: rgb(71, 76, 134);
-
-    
+    align-items: center;
+    padding-block: 6rem;
 
 }
-.About-me img{
-    margin-block: 2rem;
-    border-radius: 50%;
-    width: 350px;
-    height: 350px;
-    object-fit: cover;
-}
-.About-me h1{
+.hero-section h1 {
+    font-weight: 400;
     font-size: 2.5rem;
 }
-.About-me p{
-    font-size: 1.4rem;
+.hero-section strong{
+    font-weight: 550;
+}
+.hero-section i {
+    color: rgb(33, 119, 140);
 }
 
+.hero-section i:hover {
+    color: rgb(53, 193, 228);
+    
+}
+.social-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
 
+    padding-bottom: 1rem;
+}
+.social-links i{
+    font-size: 3rem;
+}
 
+.portrait img {
+    display: block;
+    max-inline-size: 100%;
+
+    margin-block: 3rem;
+    margin-inline: auto;
+
+    border-radius: 50%;
+    border: 2px solid rgb(27, 77, 90);
+
+    width: min(25rem, 50vw);
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+#cv-button {
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+
+    width: fit-content;
+    min-width: 160px;
+    max-width: 240px;
+    min-height: 44px;
+
+    margin-block: 1rem;
+    padding: 0.75rem 1rem;
+
+    font-size: clamp(0.95rem, 2.5vw, 1.05rem);
+    font-family: inherit;
+    font-weight: 500;
+
+    border: none;
+    border-radius: 3rem;
+
+    background: rgb(33, 119, 140);
+    color: rgb(233, 233, 233);
+
+    cursor: pointer;
+    transition:
+        background-color 0.2s ease,
+        transform 0.1s ease,
+        box-shadow 0.2s ease;
+}
+
+#cv-button:hover {
+    background-color: rgb(52, 180, 211);
+    color: white;
+}

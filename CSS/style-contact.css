@@ -1,0 +1,108 @@
+.contact form {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 2rem;
+
+}
+
+.contact-card {
+    align-items: center;
+    gap: 1rem;
+    max-width: 600px;
+
+    padding: 2rem;
+    margin-inline: auto;
+
+    border-radius: 1rem;
+    border: 2px solid rgb(19, 102, 106);
+    background: linear-gradient(to bottom, rgb(13, 32, 40), rgb(10, 14, 31))
+}
+@media (max-width: 768px) {
+    .contact-card {
+        margin-inline: 5vw;
+        padding: 2rem;
+    }
+
+    .contact form {
+        padding-inline: 2rem;
+    }
+
+    .contact button {
+        width: 60%;
+        padding: 0.5rem 0.75rem;
+    }
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 0.75em 1em;
+    font-size: clamp(0.95rem, 2.5vw, 1.05rem);
+    font-family: inherit;
+
+    border-radius: 0.75rem;
+    border: 2px solid #246682;
+    background-color: #262868;
+    color: #66afc8;
+
+    min-height: 44px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.contact form textarea {
+    resize: none;
+}
+
+.contact form input:focus,
+.contact form textarea:focus, 
+.contact form input:hover,
+.contact form textarea:hover {
+    border-color: #4f46e5;
+    background-color: #484a9b;
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.15);
+    color: white;
+}
+
+.contact form label {
+    padding-block: 1rem;
+    font-size: 1.2rem;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+.contact button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    width: 100%;
+    max-width: 200px;
+    min-height: 44px;
+
+    margin-block: 1.5rem;
+    padding: 0.75rem 1rem;
+
+    font-size: clamp(0.95rem, 2.5vw, 1.05rem);
+    font-family: inherit;
+    font-weight: 500;
+
+    border: none;
+    border-radius: 3rem;
+
+    background: rgb(33, 119, 140);
+    color: inherit;
+
+    cursor: pointer;
+    transition:
+        background-color 0.2s ease,
+        transform 0.1s ease,
+        box-shadow 0.2s ease;
+}
+
+.contact button:hover {
+    background-color: rgb(52, 180, 211);
+    color: white;
+}

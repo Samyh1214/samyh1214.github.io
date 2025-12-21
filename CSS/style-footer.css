@@ -1,0 +1,23 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(5rem, 20vh, 15rem);
+
+    margin-top: 4rem;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.107);
+
+    
+}
+footer a, 
+footer p, 
+footer i{
+    text-decoration: none;
+    color:rgb(108, 133, 225);
+    
+}
+footer a i:hover,
+footer a:hover{
+    color:rgb(243, 243, 243)
+}
