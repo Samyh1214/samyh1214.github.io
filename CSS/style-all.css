@@ -15,7 +15,6 @@ body {
 
 strong{
     font-weight: 750;
-    color: rgb(33, 206, 219);
 }
 
 body ::selection {
@@ -55,9 +54,22 @@ h3 {
 .wrapper {
     max-inline-size: 1000px;
     margin-inline: auto;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+
+    padding: 3rem 5%;
+
+    width: 100%;
+    text-align: left;
 
 }
+.wrapper h1 {
+    font-size: clamp(2rem, 5vw, 2.5rem);
+}
+.wrapper p {
+    font-size: clamp(1.05rem, 2.5vw, 1.4rem);
+    line-height: 1.6;
+}
+
 
 
 

@@ -59,7 +59,6 @@
 .contact form textarea:hover {
     border-color: #4f46e5;
     background-color: #484a9b;
-    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.15);
     color: white;
 }
 

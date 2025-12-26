@@ -1,12 +1,11 @@
 .skills {
-    padding-block: 3rem;
+    padding-inline: clamp(1rem, 15vw, 25vw);
+    padding-bottom: 8rem;
     text-align: center;
 
 }
 
-.skills h3 {
-    font-weight: 700;
-}
+
 
 .skill-grid {
 
@@ -15,13 +14,23 @@
     gap: 2rem;
 
     max-width: 56rem;
-    margin: 0 auto;
-    padding: 1.5rem;
+    margin:auto;
 
+}
+@media (max-width: 678px) {
+    .skill-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 450px) {
+    .skill-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 .skill-card {
     display: flex;
+    align-items: center;
     flex-direction: column;
     gap: 1rem;
 
@@ -36,6 +45,7 @@
     box-shadow: 8px 16px 8px rgba(0, 0, 0, 0.326);
 
 }
+
 
 .skill-list {
     display: flex;
