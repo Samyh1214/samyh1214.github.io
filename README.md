@@ -44,3 +44,5 @@ Jag har använt flex och grid för att göra webbplatsen mer responsiv mellan ol
 - Utökad och mer avancerad JavaScript-funktionalitet
 - Fördjupat arbete kring tillgänglighet med t.ex ARIA-attribut.
 - Utgå från mobile first principen.
+- Funktion för språkval mellan svenska och engelska.
+- Light mode/Dark mode switch.
