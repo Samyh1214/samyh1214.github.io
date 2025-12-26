@@ -22,22 +22,23 @@
 </head>
 
 <body>
+    <div class="background-blue">
 
-    <main>
-        <nav class="primary-navigation">
-            <div class="navbar-items">
-                <a href="#home"><i class="fa-regular fa-house"></i> Home</a>
-                <a href="#about-me"><i class="fa-regular fa-face-grin"></i> About me</a>
-                <a href="#portfolio"><i class="fa-solid fa-briefcase"></i> Portfolio</a>
-                <a href="#testimonials"><i class="fa-solid fa-people-group"></i> Testimonials</a>
-                <a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a>
-            </div>
-        </nav>
+        <header>
+            <nav class="primary-navigation">
+                <div class="navbar-items">
+                    <a href="#home"><i class="fa-regular fa-house"></i> Home</a>
+                    <a href="#about-me"><i class="fa-regular fa-face-grin"></i> About me</a>
+                    <a href="#portfolio"><i class="fa-solid fa-briefcase"></i> Portfolio</a>
+                    <a href="#testimonials"><i class="fa-solid fa-people-group"></i> Testimonials</a>
+                    <a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a>
+                </div>
+            </nav>
+        </header>
 
-        <div class="background-blue">
+        <main>
 
             <!-- Hero Section -->
-
 
             <section id="home">
                 <section class="hero-section">
@@ -59,21 +60,23 @@
 
                 </section>
             </section>
-        </div>
-        <!-- Hero Section -->
+    </div>
+    <!-- Hero Section -->
 
 
-        <div class="background-green">
+    <div class="background-green">
 
-            <!-- About Me -->
+        <!-- About Me -->
 
-            <section id="about-me">
-                <section class="about-me">
-                    <div class="two-grid-layout">
-                        <div class="two-grid-text">
+        <section id="about-me">
+            <section class="about-me">
+                <div class="two-grid-layout">
+                    <div class="two-grid-text">
+                        <div class="wrapper">
                             <h3>Introduction</h3>
                             <h1>About Me</h1>
-                            <p>I'm a dedicated learning <em>.NET developer</em>. I'm passionate about making
+                            <p>I'm a dedicated learning <em>.NET developer</em> based in Stockholm. I'm passionate
+                                about making
                                 <em>
                                     intuitive solutions</em>.
                                 This includes <em>problem solving</em>, <em>creative</em> and
@@ -81,217 +84,262 @@
                                 fullstack developer in .NET
                             </p>
                             <p>
-                                My main expertise is in <em>C#</em>, <em>T-SQL</em>,
-                                <em>MongoDB</em>, <em>HTML</em>, <em>CSS</em>,
-                                <em>Javascript</em> and <em>ASP.NET</em>.
+                                My main expertise is in <em>C#, T-SQL,
+                                    MongoDB, HTML, CSS,
+                                    Javascript and ASP.NET</em>.
                             </p>
                             <p>
-                                Outside of coding and developing, I enjoy animating, playing in a band, producing music
-                                and
-                                strength training.
+                                Outside of coding and developing, I enjoy animating, playing in a band and producing
+                                music.
                             </p>
                         </div>
-
+                    </div>
+                    <div class="img-container">
                         <img src="/CSS/Images/DSCF8721.jpg" alt="Samuel">
-
                     </div>
-                </section>
-            </section>
 
-            <!-- Skill section -->
-            <section class="skills">
+
+
+                </div>
+            </section>
+        </section>
+
+        <!-- Skill section -->
+        <section class="skills">
+            <div class="wrapper">
+                <h3>Knowledge</h3>
+                <h1>Skills</h1>
+            </div>
+
+            <div class="skill-grid">
+                <!-- Backend -->
+                <div class="skill-card">
+                    <h3>Backend</h3>
+
+                    <ul class="skill-list">
+                        <li>
+                            <img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />
+                            C#
+                        </li>
+                        <li><img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-original.svg" />
+                            ASP.NET
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Frontend -->
+                <div class="skill-card">
+                    <h3>Frontend</h3>
+                    <ul class="skill-list">
+                        <li>
+                            <img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+                            HTML
+                        </li>
+                        <li>
+                            <img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+                            CSS
+                        </li>
+                        <li>
+                            <img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+                            Javascript
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Database -->
+                <div class="skill-card">
+                    <h3>Database</h3>
+                    <ul class="skill-list">
+                        <li>
+                            <img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg" />
+                            SQL-Server
+                        </li>
+                        <li>
+                            <img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" />
+                            MongoDB
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+
+
+    <div class="background-blue">
+
+        <!-- Portfolio -->
+        <section id="portfolio">
+            <section class="portfolio">
                 <div class="wrapper">
-                    <h3>Knowledge</h3>
-                    <h1>Skills</h1>
+                    <h3>Portfolio (Placeholder)</h3>
+                    <h1>Featured Projects</h1>
+                    <p>
+                        Explore a selection of projects that demonstrate my expertise in frontend and backend
+                        development.
+                        Each project includes a short description along with links to live demos and source code.
+                        These works showcase my ability to build scalable, visually appealing,
+                        and functional applications using a variety of modern technologies.
+                    </p>
                 </div>
+                <div class="project-grid">
 
-                <div class="skill-grid">
-                    <!-- Backend -->
-                    <div class="skill-card">
-                        <h3>Backend</h3>
+                    <div class="project-card">
+                        <img src="/CSS/Images/gymphoto.jpg" alt="Project">
+                        <h3>Workout App</h3>
+                        <p>An app to help you get gains and track your training progress.</p>
 
-                        <ul class="skill-list">
-                            <li>
-                                <img
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />
-                                C#
-                            </li>
-                            <li><img
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-original.svg" />
-                                ASP.NET
-                            </li>
-                        </ul>
-                    </div>
-
-                    <!-- Frontend -->
-                    <div class="skill-card">
-                        <h3>Frontend</h3>
-                        <ul class="skill-list">
-                            <li>
-                                <img
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
-                                HTML
-                            </li>
-                            <li>
-                                <img
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
-                                CSS
-                            </li>
-                            <li>
-                                <img
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-                                Javascript
-                            </li>
-                        </ul>
-                    </div>
-
-                    <!-- Database -->
-                    <div class="skill-card">
-                        <h3>Database</h3>
-                        <ul class="skill-list">
-                            <li>
-                                <img
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg" />
-                                SQL-Server
-                            </li>
-                            <li>
-                                <img
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" />
-                                MongoDB
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-            </section>
-        </div>
-
-
-
-        <div class="background-blue">
-            <!-- Portfolio -->
-            <section id="portfolio">
-                <section class="portfolio">
-                    <div class="wrapper">
-                        <h3>Portfolio</h3>
-                        <h1>Featured Projects</h1>
-                        <p>
-                            Explore a selection of projects that demonstrate my expertise in frontend and backend
-                            development.
-                            Each project includes a short description along with links to live demos and source code.
-                            These works showcase my ability to build scalable, visually appealing,
-                            and functional applications using a variety of modern technologies.
-                        </p>
-                    </div>
-                    <div class="project-grid">
-
-                        <div class="project-card">
-                            <img src="/CSS/Images/gymphoto.jpg" alt="Project">
-                            <h3>Workout App</h3>
-                            <p>An app to help you get gains and track your training progress.</p>
-                        </div>
-
-                        <div class="project-card">
-                            <img src="/CSS/Images/foodphoto.jpg" alt="Project">
-                            <h3>Food App</h3>
-                            <p>Tired of not knowing what to cook? Say no more. </p>
-                        </div>
-
-                        <div class="project-card">
-                            <img src="/CSS/Images/hotelphoto.jpg" alt="Project">
-                            <h3>Hotel App</h3>
-                            <p>Book your hotels with this super intuitive app.</p>
-                        </div>
-
-                    </div>
-                </section>
-            </section>
-
-            <!-- Testimonials -->
-            <section id="testimonials">
-                <section class="testimonials">
-                    <div class="wrapper">
-                        <h3>Testimonials (Placeholder)</h3>
-                        <h1>What others say</h1>
-                        <p>I've had the privilege to work with some really interesting
-                            people while working on projects and learning to code.</p>
-                    </div>
-
-                    <div class="test-grid">
-                        <div class="test-card">
-                            <p><em>"I thought our website design couldn't get much better.
-                                    Samuel proved me wrong with his minimalistic approach."</em></p>
-                            <p>@ Jessica Moore</p>
-                        </div>
-
-                        <div class="test-card">
-                            <p><em>"Working with Samuel was a pleasure. His innovative solutions helped streamline our
-                                    processes significantly."</em></p>
-                            <p>@ Emily Davis</p>
-                        </div>
-
-                        <div class="test-card">
-                            <p><em>"Samuel's expertise in backend development is unmatched. He transformed our ideas
-                                    into reality seamlessly."</em></p>
-                            <p>@ Michael Brown</p>
-                        </div>
-
-                        <div class="test-card">
-                            <p><em>"The app Samuel developed for us was intuitive and user-friendly. Our customers love
-                                    it!"</em></p>
-                            <p>@ Sarah Wilson</p>
-                        </div>
-
-                    </div>
-                </section>
-            </section>
-            </section>
-        </div>
-
-
-
-        <div class="background-green">
-            <!-- Contact Form -->
-            <section id="contact">
-                <section class="contact">
-                    <div class="contact-card">
-                        <h3>Get in touch</h3>
-                        <h1>Contact</h1>
-                        <form action="https://formsubmit.co/sampe.fehrm@gmail.com" method="POST">
-                            <label for="name">
-                                <h3>Your Name</h3>
-                            </label>
-                            <input type="text" id="name" name="name"
-                                placeholder="Write your full name (Atleast 2 letters)" required minlength="2"
-                                pattern="[A-Za-zÅÄÖåäö\- ]+">
-
-                            <label for="email">
-                                <h3>Your Email</h3>
-                            </label>
-                            <input type="email" id="email" name="email" placeholder="Name@example.com" required
-                                pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$">
-
-                            <label for="message">
-                                <h3>Your Message</h3>
-                            </label>
-                            <textarea id="message" name="message" rows="5"
-                                placeholder="What do you want to say? (Atleast 10 letters)" required minlength="10"
-                                pattern="[A-Za-zÅÄÖåäö\- ]+"></textarea>
-                            <div class="btn-container">
-                                <button type="submit">Send Email</button>
+                        <div class="btn-container">
+                            <div class="btn-project">
+                                <a href="https://github.com/samyh1214">Github</a>
                             </div>
 
-                        </form>
-                    </div>
-                </section>
-            </section>
 
-            <footer>
+                            <div class="btn-project">
+                                <a href="https://github.com/samyh1214">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <img src="/CSS/Images/foodphoto.jpg" alt="Project">
+                        <h3>Food App</h3>
+                        <p>Tired of not knowing what to cook? Say no more. </p>
+
+                        <div class="btn-container">
+                            <div class="btn-project">
+                                <a href="https://github.com/samyh1214">Github</a>
+                            </div>
+
+
+                            <div class="btn-project">
+                                <a href="https://github.com/samyh1214">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <img src="/CSS/Images/hotelphoto.jpg" alt="Project">
+                        <h3>Hotel App</h3>
+                        <p>Book your hotels with this super intuitive app.</p>
+
+                        <div class="btn-container">
+                            <div class="btn-project">
+                                <a href="https://github.com/samyh1214">Github</a>
+                            </div>
+
+
+                            <div class="btn-project">
+                                <a href="https://github.com/samyh1214">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </section>
+
+        <!-- Testimonials -->
+        <section id="testimonials">
+            <section class="testimonials">
+                <div class="wrapper">
+                    <h3>Testimonials (Placeholder)</h3>
+                    <h1>What others say</h1>
+                    <p>I've had the privilege to work with some really interesting
+                        people while working on projects and learning to code.</p>
+                </div>
+
+                <div class="test-grid">
+                    <div class="test-card">
+                        <p><em>"I thought our website design couldn't get much better.
+                                Samuel proved me wrong with his minimalistic approach."</em></p>
+                        <p>@ Jessica Moore</p>
+                    </div>
+
+                    <div class="test-card">
+                        <p><em>"Working with Samuel was a pleasure. His innovative solutions helped streamline our
+                                processes significantly."</em></p>
+                        <p>@ Emily Davis</p>
+                    </div>
+
+                    <div class="test-card">
+                        <p><em>"Samuel's expertise in backend development is unmatched. He transformed our ideas
+                                into reality seamlessly."</em></p>
+                        <p>@ Michael Brown</p>
+                    </div>
+
+                    <div class="test-card">
+                        <p><em>"The app Samuel developed for us was intuitive and user-friendly. Our customers love
+                                it!"</em></p>
+                        <p>@ Sarah Wilson</p>
+                    </div>
+
+                </div>
+            </section>
+        </section>
+        </section>
+    </div>
+
+
+
+    <div class="background-green">
+        <!-- Contact Form -->
+        <section id="contact">
+            <section class="contact">
+                <div class="contact-card">
+                    <h3>Get in touch</h3>
+                    <h1>Contact</h1>
+                    <form action="https://formsubmit.co/sampe.fehrm@gmail.com" method="POST">
+                        <label for="name">
+                            <h3>Your Name</h3>
+                        </label>
+                        <input type="text" id="name" name="name" placeholder="Write your full name (Atleast 2 letters)"
+                            required minlength="2" pattern="[A-Za-zÅÄÖåäö\- ]+">
+
+                        <label for="email">
+                            <h3>Your Email</h3>
+                        </label>
+                        <input type="email" id="email" name="email" placeholder="Name@example.com" required
+                            pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$">
+
+                        <label for="message">
+                            <h3>Your Message</h3>
+                        </label>
+                        <textarea id="message" name="message" rows="5"
+                            placeholder="What do you want to say? (Atleast 10 letters)" required minlength="10"
+                            pattern="[A-Za-zÅÄÖåäö\- ]+"></textarea>
+                        <div class="btn-container">
+                            <button type="submit">Send Email</button>
+                        </div>
+
+                    </form>
+                </div>
+            </section>
+        </section>
+
+        <footer>
+            <div class="foot-container">
                 <p><i class="fa-regular fa-copyright"></i> Samuel Fehrm</p>
+            </div>
+
+            <div class="foot-container">
                 <p>Fullstack .Net Developer</p>
-                <a href="https://github.com/samyh1214">Github <i class="fa-brands fa-github"></i></a>
-            </footer>
-        </div>
+            </div>
+
+            <div class="foot-container">
+                <a href="https://github.com/samyh1214">Github
+                    <i class="fa-brands fa-github"></i></a>
+            </div>
+        </footer>
+    </div>
     </main>
 
 
