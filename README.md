@@ -2,7 +2,7 @@
 
 ## Projektbeskrivning
 
-Projektet är en personlig portfolio som är till för att visa mina kunskaper inom CSS, HTML och JavaScript. Portfolion presenterar även information om mig och är tänkt att fungera som en grund för en vidareutvecklad portfolio längre fram.
+Projektet är en personlig portfolio gjort med CSS, HTML och JavaScript. Portfolion presenterar information om mig och är tänkt att fungera som en grund för en vidareutvecklad portfolio längre fram.
 
 ## Syfte och mål
 
