@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
     <link rel="stylesheet" href="/CSS/FontAwesome/all.min.css">
 
     <link rel="stylesheet" href="/CSS/style-all.css">
@@ -22,28 +21,26 @@
 </head>
 
 <body>
+    <header>
+        <nav class="primary-navigation">
+            <div class="navbar-items">
+                <a href="#home"><i class="fa-regular fa-house"></i> Hem</a>
+                <a href="#about-me"><i class="fa-regular fa-face-grin"></i> Om mig</a>
+                <a href="#portfolio"><i class="fa-solid fa-briefcase"></i> Projekt</a>
+                <!-- <a href="#testimonials"><i class="fa-solid fa-people-group"></i> Testimonials</a> -->
+                <a href="#contact"><i class="fa-solid fa-envelope"></i> Kontakt</a>
+            </div>
+        </nav>
+    </header>
     <div class="background-blue">
-
-        <header>
-            <nav class="primary-navigation">
-                <div class="navbar-items">
-                    <a href="#home"><i class="fa-regular fa-house"></i> Home</a>
-                    <a href="#about-me"><i class="fa-regular fa-face-grin"></i> About me</a>
-                    <a href="#portfolio"><i class="fa-solid fa-briefcase"></i> Portfolio</a>
-                    <!-- <a href="#testimonials"><i class="fa-solid fa-people-group"></i> Testimonials</a> -->
-                    <a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a>
-                </div>
-            </nav>
-        </header>
-
         <main>
 
             <!-- Hero Section -->
 
             <section id="home">
                 <section class="hero-section">
-                    <h1>Hi, I'm <strong>Samuel</strong></h1>
-                    <p>Fullstack .NET Developer</p>
+                    <h1>Samuel Fehrm</h1>
+                    <p>Student inom .NET-Utveckling</p>
 
                     <div class="portrait">
                         <img src="/CSS/Images/DSCF8728.jpg" alt="Samuel">
@@ -56,7 +53,7 @@
                     </div>
 
                     <!-- DOWNLOAD RESUMÉ (BUTTON) -->
-                    <button id="cv-button" type="button">Download Resumé</button>
+                    <button id="cv-button" type="button">Ladda ner CV</button>
 
                 </section>
             </section>
@@ -73,24 +70,21 @@
                 <div class="two-grid-layout">
                     <div class="two-grid-text">
                         <div class="wrapper">
-                            <h3>Introduction</h3>
-                            <h1>About Me</h1>
-                            <p>I'm a dedicated learning <em>.NET developer</em> based in Stockholm. I'm passionate
-                                about making
-                                <em>
-                                    intuitive solutions</em>.
-                                This includes <em>problem solving</em>, <em>creative</em> and
-                                <em>UX-design</em>. I strive towards learning more to become a complete
-                                fullstack developer in .NET
+                            <h1>Om mig</h1>
+                            <p> Jag är en dedikerad och lärande .Net-utvecklarstudent. Min bakgrund är inom pedagogik och 
+                                ljud/musikproduktion. Jag ändrade spår då jag ville göra något mer i en branch som är tryggare än musikbranchen
+                                men fortfarande är något jag genuint tycker om. Intresset för programmering var något som växte för mig runt 2024 
+                                från bland annat scripting och moddande i spel, det gav mig en tydlig bild av vad det faktiskt 
+                                innebar med programmering och jag insåg då att det var något
+                                som jag tyckte var riktigt roligt, därefter bestämde jag mig för att dyka djupare och börja studera. 
                             </p>
                             <p>
-                                My main expertise is in <em>C#, T-SQL,
-                                    MongoDB, HTML, CSS,
-                                    Javascript and ASP.NET</em>.
+                                Inom utveckling så föredrar jag backend då jag tycker att skriva faktiskt logik som gör och påverkar något är 
+                                väldigt tillfredställande. Jag fokuserar på skalbarhet och ren kod och lär mig gärna nya tekniker.
                             </p>
                             <p>
-                                Outside of coding and developing, I enjoy animating, playing in a band and producing
-                                music.
+                                Utanför utveckling så har jag många kreativa intressen som animation, musikproduktion och att spela i band. 
+                                Även motion, träning och klättring. 
                             </p>
                         </div>
                     </div>
@@ -103,9 +97,11 @@
     
         <!-- Skill section -->
         <section class="skills">
-            <div class="wrapper">
-                <h3>Knowledge</h3>
-                <h1>Skills</h1>
+
+            <div class="wrapper">   
+                <h1>Kunskaper</h1>
+                <p>En selektion av kunskaper som jag använt mest,
+                     men inte enbart. Då jag studerar så håller jag på med nya tekniker löpande.</p>
             </div>
 
             <div class="skill-grid">
@@ -119,10 +115,16 @@
                                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />
                             C#
                         </li>
-                        <li><img
-                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-original.svg" />
-                            ASP.NET
+                        <li>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" />
+                            ASP.NET Core / MVC, WebAPI
                         </li>
+                        <li>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/entityframeworkcore/entityframeworkcore-original.svg" />
+                            Entity Framework
+                        </li>
+
+                        
                     </ul>
                 </div>
 
@@ -150,17 +152,30 @@
 
                 <!-- Database -->
                 <div class="skill-card">
-                    <h3>Database</h3>
+                    <h3>Databas</h3>
                     <ul class="skill-list">
                         <li>
                             <img
                                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg" />
-                            SQL-Server
+                            Microsoft SQL-Server
+                        </li>
+                    </ul>
+                </div>
+                <!-- Tools -->
+                <div class="skill-card">
+                    <h3>Verktyg</h3>
+                    <ul class="skill-list">
+                        <li>           
+                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
+                            Git
                         </li>
                         <li>
-                            <img
-                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" />
-                            MongoDB
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" />
+                            Postman
+                        </li>
+                        <li>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" />
+                            Azure
                         </li>
                     </ul>
                 </div>
@@ -177,25 +192,35 @@
         <section id="portfolio">
             <section class="portfolio">
                 <div class="wrapper">
-                    <h3>Portfolio</h3>
-                    <h1>Featured Projects</h1>
+                    <h1>Projekt</h1>
                     <p>
-                        Explore a selection of my projects that demonstrate my knowledge in frontend and backend
-                        development.
-                        These works showcase my ability to build scalable 
-                        and functional applications using a variety of modern technologies.
+                        Utforska en liten selektion av mina projekt som demonstrerar kunskaper inom databasteknik till backend, och backend till frontend. 
+                        Syftet med denna selektion är att visa nyare tekniker och arbetssätt som är relevanta inom IT-Branschen.
                     </p>
                 </div>
                 <div class="project-grid">
 
                     <div class="project-card">
                         <img src="/CSS/Images/gymphoto.jpg" alt="Project">
-                        <h3>Gym-Portal</h3>
-                        <p>A fullstack projekt of a web portal for a Gym</p>
+                        <h3>Gymportal</h3>
+                        <p>En fullstack-lösning av en webbportal för ett gym. Projektet visar användning av moderna arkitekturer som
+                            DDD och Clean Architecture i ASP.NET med MVC.
+                        </p>
 
                         <div class="btn-container">
                             <div class="btn-project">
                                 <a href="https://github.com/Samyh1214/aspnet-samuel-fehrm">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="/CSS/Images/preview-form-and-admin-card.png" alt="Project">
+                        <h3>LMS-Plattform</h3>
+                        <p>Ett agilt-teamprojekt med användning av micro services. Detta visar min del och mitt ansvarsområde inom projektet.</p>
+
+                        <div class="btn-container">
+                            <div class="btn-project">
+                                <a href="https://github.com/Samyh1214/LMS-Platform">Github</a>
                             </div>
                         </div>
                     </div>
@@ -231,26 +256,25 @@
         <section id="contact">
             <section class="contact">
                 <div class="contact-card">
-                    <h3>Get in touch</h3>
-                    <h1>Contact</h1>
+                    <h1>Kom i kontakt med mig</h1>
                     <form action="https://formsubmit.co/sampe.fehrm@gmail.com" method="POST">
                         <label for="name">
-                            <h3>Your Name</h3>
+                            <h3>Namn</h3>
                         </label>
-                        <input type="text" id="name" name="name" placeholder="Write your full name (Atleast 2 letters)"
+                        <input type="text" id="name" name="name" placeholder="Skriv ditt namn (Minst 2 bokstäver)"
                             required minlength="2" pattern="[A-Za-zÅÄÖåäö\- ]+">
 
                         <label for="email">
-                            <h3>Your Email</h3>
+                            <h3>Email</h3>
                         </label>
-                        <input type="email" id="email" name="email" placeholder="Name@example.com" required
+                        <input type="email" id="email" name="email" placeholder="Namn@exempel.com" required
                             pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$">
 
                         <label for="message">
-                            <h3>Your Message</h3>
+                            <h3>Meddelande</h3>
                         </label>
                         <textarea id="message" name="message" rows="5"
-                            placeholder="What do you want to say? (Atleast 10 letters)" required minlength="10"
+                            placeholder="Vad vill du skriva? (Minst 10 bokstäver)" required minlength="10"
                             pattern="[A-Za-zÅÄÖåäö\- ]+"></textarea>
                         <div class="btn-container">
                             <button type="submit">Send Email</button>

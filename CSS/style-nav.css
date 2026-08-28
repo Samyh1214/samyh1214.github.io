@@ -17,7 +17,9 @@
 
     background-color: rgba(25, 25, 25, 0.904);
     font-size: clamp(0.7rem, 1.2vw, 1.2rem);
-    
+
+    z-index: 9999;
+    isolation: isolate;
 }
 .navbar-items{
     display: flex;
