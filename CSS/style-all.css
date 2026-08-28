@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -82,3 +85,28 @@ h3 {
     background: linear-gradient(to bottom, rgb(13, 29, 50), rgb(6, 43, 52));
     border-bottom: 2px solid rgb(91, 41, 144);
 }
+.background-blue,
+.background-green {
+    position: relative;
+}
+
+.background-blue::before,
+.background-green::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background-image: url("SVG/topography.svg");
+    background-repeat: repeat;
+
+    opacity: 0.2;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.background-blue > *,
+.background-green > * {
+    position: relative;
+    z-index: 1;
+}
+
